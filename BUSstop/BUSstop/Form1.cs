@@ -19,13 +19,14 @@ namespace BUSstop
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            int a = 0, b = 0;
+            
+            
 
-            a = 2;
-            b = 3;
-            a=a + b;
-            textBox1.Text += a;
+        }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            lozinkaBox.Text += "Domagoj Kuster";
         }
     }
 }

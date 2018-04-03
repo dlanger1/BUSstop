@@ -1,0 +1,10 @@
+C:\Users\N3XU5\Documents\BUStop\BUSstop\BUSstop\bin\Debug\BUSstop.exe.config
+C:\Users\N3XU5\Documents\BUStop\BUSstop\BUSstop\bin\Debug\BUSstop.exe
+C:\Users\N3XU5\Documents\BUStop\BUSstop\BUSstop\bin\Debug\BUSstop.pdb
+C:\Users\N3XU5\Documents\BUStop\BUSstop\BUSstop\obj\Debug\BUSstop.csprojResolveAssemblyReference.cache
+C:\Users\N3XU5\Documents\BUStop\BUSstop\BUSstop\obj\Debug\BUSstop.Form1.resources
+C:\Users\N3XU5\Documents\BUStop\BUSstop\BUSstop\obj\Debug\BUSstop.Properties.Resources.resources
+C:\Users\N3XU5\Documents\BUStop\BUSstop\BUSstop\obj\Debug\BUSstop.csproj.GenerateResource.cache
+C:\Users\N3XU5\Documents\BUStop\BUSstop\BUSstop\obj\Debug\BUSstop.csproj.CoreCompileInputs.cache
+C:\Users\N3XU5\Documents\BUStop\BUSstop\BUSstop\obj\Debug\BUSstop.exe
+C:\Users\N3XU5\Documents\BUStop\BUSstop\BUSstop\obj\Debug\BUSstop.pdb
