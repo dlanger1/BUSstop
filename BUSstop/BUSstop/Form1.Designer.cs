@@ -28,19 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.korisnickoImeBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.lozinkaBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // korisnickoImeBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(28, 65);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(183, 31);
-            this.textBox1.TabIndex = 0;
+            this.korisnickoImeBox.Location = new System.Drawing.Point(28, 65);
+            this.korisnickoImeBox.Multiline = true;
+            this.korisnickoImeBox.Name = "korisnickoImeBox";
+            this.korisnickoImeBox.Size = new System.Drawing.Size(183, 31);
+            this.korisnickoImeBox.TabIndex = 0;
+            this.korisnickoImeBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -62,23 +63,23 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Lozinka:";
             // 
-            // textBox2
+            // lozinkaBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(28, 165);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(137, 26);
-            this.textBox2.TabIndex = 3;
+            this.lozinkaBox.Location = new System.Drawing.Point(28, 165);
+            this.lozinkaBox.Multiline = true;
+            this.lozinkaBox.Name = "lozinkaBox";
+            this.lozinkaBox.Size = new System.Drawing.Size(137, 26);
+            this.lozinkaBox.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.lozinkaBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.korisnickoImeBox);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -89,10 +90,10 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox korisnickoImeBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox lozinkaBox;
     }
 }
 
